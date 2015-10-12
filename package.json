@@ -4,7 +4,7 @@
   "description": "Generate permutations using the Steinhaus-Johnson-Trotter algorithm.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jshint *.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/nodash/steinhaus-johnson-trotter/issues"
   },
-  "homepage": "https://github.com/nodash/steinhaus-johnson-trotter"
+  "homepage": "https://github.com/nodash/steinhaus-johnson-trotter",
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  }
 }
