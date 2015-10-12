@@ -1,0 +1,27 @@
+{
+  "name": "steinhaus-johnson-trotter",
+  "version": "1.0.0",
+  "description": "Generate permutations using the Steinhaus-Johnson-Trotter algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodash/steinhaus-johnson-trotter.git"
+  },
+  "keywords": [
+    "permutations",
+    "algorithm",
+    "steinhaus",
+    "johnson",
+    "trotter",
+    "even"
+  ],
+  "author": "Julian Alexander Fleischer <tirednesscankill@warhog.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodash/steinhaus-johnson-trotter/issues"
+  },
+  "homepage": "https://github.com/nodash/steinhaus-johnson-trotter"
+}
