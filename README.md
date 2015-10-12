@@ -28,7 +28,7 @@ included in the permutations returned, i.e. the number of
 invocations that the generator returns a permutation is
 `N! - 1` where N is the length of the array/string.
 
-All permutations can be created as follows:
+All permutations can be generated as follows:
 
 ```JavaScript
 var sjt = require('steinhaus-johnson-trotter');
