@@ -44,3 +44,18 @@ function permutations(arr) {
   return result;
 }
 ```
+
+The above function is also exported as `all`:
+
+```JavaScript
+var permutations = require('steinhaus-johnson-trotter');
+
+console.log(permutations.all([ 1, 4, 7 ]));
+
+/* → [ [ 1, 4, 7 ],
+       [ 1, 7, 4 ],
+       [ 7, 1, 4 ],
+       [ 7, 4, 1 ],
+       [ 4, 7, 1 ],
+       [ 4, 1, 7 ] ] */
+```
