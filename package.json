@@ -1,6 +1,6 @@
 {
   "name": "steinhaus-johnson-trotter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate permutations using the Steinhaus-Johnson-Trotter algorithm.",
   "main": "index.js",
   "scripts": {
