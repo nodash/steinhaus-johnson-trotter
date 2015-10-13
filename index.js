@@ -1,4 +1,4 @@
-module.exports = function (arr) {
+function permute(arr) {
     
     var N = arr.length;
     var directions = [];
@@ -66,3 +66,16 @@ module.exports = function (arr) {
         return makeResult();
     };
 };
+
+permute.all = function (arr) {
+    var generator = permute(arr);
+    var next = arr;
+    var result = [];
+    while (next !== undefined) {
+        result.push(next);
+        next = generator();
+    }
+    return result;
+};
+
+module.exports = permute;
